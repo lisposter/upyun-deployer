@@ -1,0 +1,27 @@
+{
+  "name": "upyun-deployer",
+  "version": "0.1.0",
+  "description": "simple node module for deploy static files to UPYUN bucket",
+  "main": "index.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "istanbul": "^0.3.2",
+    "mocha": "^1.21.5",
+    "should": "^4.0.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lisposter/upyun-deployer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lisposter/upyun-deployer/issues"
+  },
+  "homepage": "https://github.com/lisposter/upyun-deployer",
+  "keywords": ["upyun","cdn","deploy"],
+  "author": "Leigh Zhu",
+  "license": "MIT"
+}
