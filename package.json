@@ -4,6 +4,10 @@
   "description": "simple node module for deploy static files to UPYUN bucket",
   "main": "index.js",
   "dependencies": {
+    "mime": "^1.3.4",
+    "minimist": "^1.1.1",
+    "upyun": "^1.1.3",
+    "walk": "^2.3.9"
   },
   "devDependencies": {
     "istanbul": "^0.3.2",
@@ -21,7 +25,11 @@
     "url": "https://github.com/lisposter/upyun-deployer/issues"
   },
   "homepage": "https://github.com/lisposter/upyun-deployer",
-  "keywords": ["upyun","cdn","deploy"],
+  "keywords": [
+    "upyun",
+    "cdn",
+    "deploy"
+  ],
   "author": "Leigh Zhu",
   "license": "MIT"
 }
