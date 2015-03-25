@@ -12,11 +12,11 @@ if (typeof argv.config == 'string') {
 }
 
 if (argv.localPath) {
-  config.localPath = argv.localPath;
+  config.localPath = argv.local;
 }
 
-if (argv.baseDir) {
-  config.baseDir = argv.baseDir;
+if (argv.base) {
+  config.baseDir = argv.base;
 }
 
 if (argv.bucket) {

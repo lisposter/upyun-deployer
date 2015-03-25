@@ -8,12 +8,14 @@ simple node module for deploy static files to UPYUN bucket
 ## Installation
 
 ```bash
-$ npm install upyun-deployer
+$ npm install upyun-deployer -g
 ```
 
-## Example
-
 ## Usage
+
+```sh
+$ up-deploy -local ./ --base site --bucket somebucket --operator someone --password mypwd
+```
 
 ## License
 
