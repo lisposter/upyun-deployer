@@ -14,7 +14,7 @@ $ npm install upyun-deployer -g
 ## Usage
 
 ```sh
-$ up-deploy -local ./ --base site --bucket somebucket --operator someone --password mypwd
+$ up-deploy --local ./ --base site --bucket somebucket --operator someone --password mypwd
 ```
 
 or, given a config jason like this:
